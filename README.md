@@ -47,6 +47,8 @@ Contributions to easydocs-ts are always welcome, whether they be feature enhance
 
 5. Submit a pull request.
 
+https://github.com/EvanCWoods/easydocs-ts
+
 ## License
 
 easydocs-ts is open-sourced software licensed under the MIT license. For more information, please refer to the LICENSE file in the repository.

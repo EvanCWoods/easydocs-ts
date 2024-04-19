@@ -22,7 +22,10 @@ const findAllTsFiles = (
 			if (!filePath.includes("node_modules")) {
 				findAllTsFiles(filePath, allFiles);
 			}
-		} else if (filePath.endsWith(".ts") && !filePath.endsWith(".d.ts")) {
+		} else if (
+			filePath.endsWith(".ts") ||
+			(filePath.endsWith(".tsx") && !filePath.endsWith(".d.ts"))
+		) {
 			allFiles.push(filePath);
 		}
 	});

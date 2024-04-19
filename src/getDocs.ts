@@ -1,5 +1,3 @@
-import * as ts from "typescript";
-import * as fs from "fs";
 import * as path from "path";
 import getFiles from "./getFiles";
 import extractJSDocs from "./extractJSDocs";
