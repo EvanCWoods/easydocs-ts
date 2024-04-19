@@ -23,8 +23,8 @@ const findAllTsFiles = (
 				findAllTsFiles(filePath, allFiles);
 			}
 		} else if (
-			filePath.endsWith(".ts") ||
-			(filePath.endsWith(".tsx") && !filePath.endsWith(".d.ts"))
+			(filePath.endsWith(".ts") && !filePath.endsWith(".d.ts")) ||
+			filePath.endsWith(".tsx")
 		) {
 			allFiles.push(filePath);
 		}
